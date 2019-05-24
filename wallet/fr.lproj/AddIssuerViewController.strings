@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "_Add the URL given by your issuer"; ObjectID = "SVg-Ue-m8l"; */
+"SVg-Ue-m8l.text" = "_Add the URL given by your issuer";
+
+/* Class = "UIButton"; normalTitle = "_Add an Issuer"; ObjectID = "YfE-OO-122"; */
+"YfE-OO-122.normalTitle" = "_Add an Issuer";
+
+/* Class = "UILabel"; text = "_Add your one-time code"; ObjectID = "krB-iU-XOc"; */
+"krB-iU-XOc.text" = "_Add your one-time code";
