@@ -166,6 +166,12 @@
 		1E8F8F788045077CB0389D73 /* libPods-certificates.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-certificates.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C15AEB86836CEA4E704911A /* Pods-certificatesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-certificatesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-certificatesTests/Pods-certificatesTests.release.xcconfig"; sourceTree = "<group>"; };
 		4088D4A52B1AC1D4960CD4ED /* libPods-certificatesUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-certificatesUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8D6F72229810C400D86B26 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/AddIssuerViewController.strings; sourceTree = "<group>"; };
+		4A8D6F73229810C400D86B26 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/CertificateViewController.strings; sourceTree = "<group>"; };
+		4A8D6F74229810C500D86B26 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4A8D6F75229810C500D86B26 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		4A8D6F76229810C500D86B26 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4A8D6F77229810C600D86B26 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4ED0BB2EA5F0AA019AF2C10A /* InformationLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationLogger.swift; sourceTree = "<group>"; };
 		5AB11E45F387B18A58FCF2A4 /* Pods-certificates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-certificates.release.xcconfig"; path = "Pods/Target Support Files/Pods-certificates/Pods-certificates.release.xcconfig"; sourceTree = "<group>"; };
 		7A35288CE0EE9C6B8329C464 /* Pods-certificatesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-certificatesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-certificatesUITests/Pods-certificatesUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -648,7 +654,6 @@
 				TargetAttributes = {
 					83111B231DA4110C006B058D = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = CYEWR6MU44;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -692,6 +697,7 @@
 				Base,
 				es,
 				mt,
+				fr,
 			);
 			mainGroup = 83111B1B1DA4110C006B058D;
 			productRefGroup = 83111B251DA4110C006B058D /* Products */;
@@ -966,6 +972,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				83111B2C1DA4110C006B058D /* Base */,
+				4A8D6F75229810C500D86B26 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -974,6 +981,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				83111B311DA4110C006B058D /* Base */,
+				4A8D6F74229810C500D86B26 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -982,6 +990,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				838DC1381E43F0D300533AEB /* Base */,
+				4A8D6F72229810C400D86B26 /* fr */,
 			);
 			name = AddIssuerViewController.xib;
 			sourceTree = "<group>";
@@ -990,6 +999,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				838DC13B1E43F0F700533AEB /* Base */,
+				4A8D6F73229810C400D86B26 /* fr */,
 			);
 			name = CertificateViewController.xib;
 			sourceTree = "<group>";
@@ -999,6 +1009,7 @@
 			children = (
 				E5353D12215D656500B0FE1E /* es */,
 				E5353D14215D656900B0FE1E /* mt */,
+				4A8D6F77229810C600D86B26 /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1009,6 +1020,7 @@
 				EEAF835A21471542008EC1FA /* Base */,
 				EE8DD6AE214C531B00795B0D /* es */,
 				A378A929215ACD870049CF28 /* mt */,
+				4A8D6F76229810C500D86B26 /* fr */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1137,7 +1149,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 112;
-				DEVELOPMENT_TEAM = CYEWR6MU44;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = wallet/Info.plist;
@@ -1161,7 +1173,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 112;
-				DEVELOPMENT_TEAM = CYEWR6MU44;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = wallet/Info.plist;
