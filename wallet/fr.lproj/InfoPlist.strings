@@ -1,9 +1,5 @@
 /* 
-  InfoPlist.strings
-  wallet
-
-  Created by Michael Dimore on 9/27/18.
-  Copyright © 2018 Learning Machine, Inc. All rights reserved.
-*/
-"NSFaceIDUsageDescription" = "FaceID es utilizado para asegurar su frase de contraseña";
-"kCFBundleDevelopmentRegionKey" = "es";
+ *Created by Florent Dufour 24 Mai 2019
+ */
+"NSFaceIDUsageDescription" = "FaceID est utilisé pour protéger votre phrase secrète";
+"kCFBundleDevelopmentRegionKey" = "fr";
